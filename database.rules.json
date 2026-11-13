@@ -1,0 +1,20 @@
+{
+  "rules": {
+    "club": {
+      ".read": "auth != null",
+      ".write": "auth != null"
+    },
+    "files": {
+      ".read": "auth != null",
+      ".write": "auth != null"
+    },
+    "backups": {
+      ".read": "auth != null",
+      ".write": "auth != null"
+    },
+    "backupIndex": {
+      ".read": "auth != null",
+      ".write": "auth != null"
+    }
+  }
+}
